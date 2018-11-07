@@ -1,0 +1,32 @@
+$ python create_indexes.py genindexes_test_input 
+[myindex1]
+homePath = $SPLUNK_DB/myindex1/db
+coldPath = $SPLUNK_DB/myindex1/colddb
+thawedPath = $SPLUNK_DB/myindex1/thaweddb
+frozenTimePeriodInSecs = 604800
+maxTotalDataSizeMB = 100000000
+enableDataIntegrityControl=true
+maxDataSize = auto_high_volume
+repFactor = auto
+
+[myindex2]
+homePath = $SPLUNK_DB/myindex2/db
+coldPath = $SPLUNK_DB/myindex2/colddb
+thawedPath = $SPLUNK_DB/myindex2/thaweddb
+frozenTimePeriodInSecs = 604800
+maxTotalDataSizeMB = 100000000
+enableDataIntegrityControl=true
+maxDataSize = auto_high_volume
+repFactor = auto
+
+[myindex3]
+homePath = $SPLUNK_DB/myindex3/db
+coldPath = $SPLUNK_DB/myindex3/colddb
+thawedPath = $SPLUNK_DB/myindex3/thaweddb
+frozenTimePeriodInSecs = 604800
+maxTotalDataSizeMB = 100000000
+enableDataIntegrityControl=true
+maxDataSize = auto_high_volume
+repFactor = auto
+
+
